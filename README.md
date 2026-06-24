@@ -128,7 +128,7 @@ Implementation diverged in data collection. The spec assumes manual collection f
 
 AI Usage
 
-1. Dataset generation: 
+1. Dataset generation: Asked Claude to generate 10-15 posts at the Hot Take/Analysis boundary before annotating. I couldn't classify them cleanly, so I tightened the definitions first
 
 2. Failure pattern analysis:
 
