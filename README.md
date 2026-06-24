@@ -1,4 +1,4 @@
-
+demo video: https://drive.google.com/file/d/1kVVe-EX2e_J8ByrkuN7vQ9DrhaG2dUw1/view?usp=sharing
 Community
 
 r/anime (~2.4M members). Discourse ranges from detailed structural critiques to one-word reactions, making the hot-take-vs-analysis distinction real and community-recognized. High post volume and consistent discussion norms make it a good fit for classification.
