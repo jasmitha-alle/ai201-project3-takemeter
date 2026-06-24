@@ -38,7 +38,7 @@ Fine-Tuning
 
 Base model: distilbert-base-uncased
 
-Setup: 3 epochs, learning rate 2e-5, batch size 16 (defaults). Split: 140 train / 30 val / 30 test, stratified by label. No hyperparameters were changed — with only 140 training examples, additional epochs would risk overfitting.
+Setup: 3 epochs, learning rate 2e-5, batch size 16. Split: 140 train / 30 val / 30 test, stratified by label. Training was run for 3 epochs because validation loss was still decreasing each epoch (1.075 → 1.054 → 1.006), indicating the model hadn't converged yet. Going beyond 3 epochs was not attempted because with only 140 training examples the risk of overfitting outweighed the potential gain — the validation accuracy was already plateauing at 0.60
 
 
 Baseline
