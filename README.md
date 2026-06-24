@@ -130,6 +130,6 @@ AI Usage
 
 1. Dataset generation: Asked Claude to generate 10-15 posts at the Hot Take/Analysis boundary before annotating. I couldn't classify them cleanly, so I tightened the definitions first
 
-2. Failure pattern analysis:
+2. Failure pattern analysis: I used Claude to pre-label batches of ~50 examples using my label definitions, then reviewed and corrected every label myself. Tracked pre-labeled examples with a prelabeled column in the CSV.
 
 3. Baseline prompt: The Groq classification prompt was drafted with Claude using my label definitions from planning.md, then reviewed to confirm it matched the notebook's parsing requirements.
